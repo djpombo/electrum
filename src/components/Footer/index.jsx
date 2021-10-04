@@ -16,21 +16,22 @@ export const Footer = () => {
                             aliquam velit vero. Iure aut est
                             doloremque at officia! Quia, eum.
                         </p>
-                        <i className="fas fa-location-arrow">
-                            <FaLocationArrow />
-                        </i>
+                        
+                        <div className="footer-top-about-icons">
+                        
+                        <FaLocationArrow />
                         <a href="#">Rua Pedro Adams Filho, 1451, Novo Hamburgo/RS</a>
 
                         <i className="fas fa-phone">
-                            <FaPhone />
+                            
                         </i>
-                        <a href="#">(51) 982098544)</a>
+                        <FaPhone /><a href="#">(51) 982098544)</a>
 
                         <i className="far fa-envelope">
-                            <FaEnvelope />
+                            
                         </i>
-                        <a href="#">electrum@pixeloko.com</a>
-
+                        <FaEnvelope /><a href="#">electrum@pixeloko.com</a>
+                        </div>
                     </div>
                     <div className="footer-top-categories">
                         <h3>Categorias</h3>
@@ -95,20 +96,20 @@ export const Footer = () => {
 
                 <div className="footer-bottom">
                     <div className="footer-bottom-payments">
-                        <i className="fab fa-cc-mastercard">
-                            <FaCcMastercard />
+                        <i className="fab fa-cc-mastercard" >
+                            <FaCcMastercard size={42}/>
                         </i>
                         <i className="fab fa-cc-visa">
-                            <FaCcVisa />
+                            <FaCcVisa size={42}/>
                         </i>
                         <i className="fab fa-cc-dinners-club">
-                            <FaCcDinersClub />
+                            <FaCcDinersClub size={42}/>
                         </i>
                         <i className="fab fa-cc-amazon-pay">
-                            <FaCcAmazonPay />
+                            <FaCcAmazonPay size={42}/>
                         </i>
                         <i className="fab fa-cc-apple-pay">
-                            <FaCcApplePay />
+                            <FaCcApplePay size={42}/>
                         </i>
                     </div>
                     <p><i><FaRegCopyright /></i>Copyright 2021 - Electrum by Thuiskon Kerber</p>

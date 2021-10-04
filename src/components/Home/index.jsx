@@ -1,4 +1,4 @@
-import { FaArrowCircleRight, FaStar, FaRegStar } from 'react-icons/fa';
+import { FaArrowCircleRight, FaStar, FaRegStar, FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from 'react-icons/fa';
 import Prod1 from '../../img/prod-1.jpg';
 import Prod2 from '../../img/prod-2.jpg';
 import Prod3 from '../../img/prod-3.jpg';
@@ -227,7 +227,14 @@ export const Home = () => {
                     <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" />
                     <input type="submit" className="btn btn-half" value="Assinar" />
                 </form>
+                <div className="social-media">
+                    <i className="fab fa-facebook-f"><FaFacebookF /></i>
+                    <i className="fab fa-instagram"><FaInstagram /></i>
+                    <i className="fab fa-twitter"><FaTwitter /></i>
+                    <i className="fab fa-pinterest-p"><FaPinterestP /></i>
+                </div>
             </div>
+
 
 
 
