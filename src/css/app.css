@@ -404,6 +404,7 @@ ul {
 }
 .footer-top-about-icons {
   color: #d10024;
+  vertical-align: middle;
 }
 @media (max-width: 425px) {
   .footer-top-about-icons {
@@ -413,6 +414,10 @@ ul {
 .footer-top-about-icons a {
   margin-left: 0.65rem;
   padding: 1.25rem 0;
+  transition: 0.4s;
+}
+.footer-top-about-icons a:hover {
+  color: #d10024;
 }
 .footer-bottom {
   max-width: 1170px;

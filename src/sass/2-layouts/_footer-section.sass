@@ -56,6 +56,8 @@
 
             &-icons
                 color: variables.$primary-color
+                vertical-align: middle
+               
 
                 @include base-mixins.mobile
                     vertical-align: middle
@@ -64,6 +66,10 @@
                 a
                     margin-left: .65rem
                     padding: 1.25rem 0
+                    transition: .4s
+
+                    &:hover
+                        color: variables.$primary-color
 
         
 
