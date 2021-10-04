@@ -1,4 +1,5 @@
 import { FaArrowCircleRight, FaStar, FaRegStar, FaFacebookF, FaInstagram, FaTwitter, FaPinterestP } from 'react-icons/fa';
+import { useEffect } from 'react';
 import Prod1 from '../../img/prod-1.jpg';
 import Prod2 from '../../img/prod-2.jpg';
 import Prod3 from '../../img/prod-3.jpg';
@@ -11,6 +12,11 @@ import { Link } from 'react-router-dom';
 
 
 export const Home = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <>
             <div className="banners">

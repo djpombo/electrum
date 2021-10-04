@@ -55,6 +55,7 @@ ul {
 }
 .header-top-container i {
   margin-right: 0.3rem;
+  vertical-align: middle;
 }
 .header-top-container a {
   color: #fff;
@@ -401,6 +402,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 0.65rem 0;
+  vertical-align: middle;
 }
 .footer-top-about-icons {
   color: #d10024;
@@ -418,6 +420,9 @@ ul {
 }
 .footer-top-about-icons a:hover {
   color: #d10024;
+}
+.footer-top-about-icons span i {
+  vertical-align: middle;
 }
 .footer-bottom {
   max-width: 1170px;

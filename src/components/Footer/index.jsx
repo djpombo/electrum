@@ -16,40 +16,47 @@ export const Footer = () => {
                             aliquam velit vero. Iure aut est
                             doloremque at officia! Quia, eum.
                         </p>
-                        
+
                         <div className="footer-top-about-icons">
-                        
-                        <FaLocationArrow />
-                        <Link to ='/'>Rua Pedro Adams Filho, 1451, Novo Hamburgo/RS</Link>
 
-                        <i className="fas fa-phone">
-                            
-                        </i>
-                        <FaPhone /><Link to ="/">(51) 982098544</Link>
+                            <span>
+                                <FaLocationArrow />
+                                <Link to='/'>Rua Pedro Adams Filho, 1451, Novo Hamburgo/RS</Link>
+                            </span>
 
-                        <i className="far fa-envelope">
-                            
-                        </i>
-                        <FaEnvelope /><Link to="/">electrum@pixeloko.com</Link>
+
+                            <span>
+                                <i className="fas fa-phone">
+
+                                </i>
+                                <FaPhone /><Link to="/">(51) 982098544</Link>
+                            </span>
+
+                            <span>
+                                <i className="far fa-envelope">
+
+                                </i>
+                                <FaEnvelope /><Link to="/">electrum@pixeloko.com</Link>
+                            </span>
                         </div>
                     </div>
                     <div className="footer-top-categories">
                         <h3>Categorias</h3>
                         <ul>
                             <li>
-                                <Link to = '/promocoes'>Promoções</Link>
+                                <Link to='/promocoes'>Promoções</Link>
                             </li>
                             <li>
-                                <Link to = '/novidades'>Novidades</Link>
+                                <Link to='/novidades'>Novidades</Link>
                             </li>
                             <li>
-                                <Link to = '/notebooks'>Notebooks</Link>
+                                <Link to='/notebooks'>Notebooks</Link>
                             </li>
                             <li>
-                                <Link to = '/smartphones'>Smatphones</Link>
+                                <Link to='/smartphones'>Smatphones</Link>
                             </li>
                             <li>
-                                <Link to = '/acessorios'>Acessorios</Link>
+                                <Link to='/acessorios'>Acessorios</Link>
                             </li>
                         </ul>
                     </div>
@@ -97,19 +104,19 @@ export const Footer = () => {
                 <div className="footer-bottom">
                     <div className="footer-bottom-payments">
                         <i className="fab fa-cc-mastercard" >
-                            <FaCcMastercard size={42}/>
+                            <FaCcMastercard size={42} />
                         </i>
                         <i className="fab fa-cc-visa">
-                            <FaCcVisa size={42}/>
+                            <FaCcVisa size={42} />
                         </i>
                         <i className="fab fa-cc-dinners-club">
-                            <FaCcDinersClub size={42}/>
+                            <FaCcDinersClub size={42} />
                         </i>
                         <i className="fab fa-cc-amazon-pay">
-                            <FaCcAmazonPay size={42}/>
+                            <FaCcAmazonPay size={42} />
                         </i>
                         <i className="fab fa-cc-apple-pay">
-                            <FaCcApplePay size={42}/>
+                            <FaCcApplePay size={42} />
                         </i>
                     </div>
                     <p><i><FaRegCopyright /></i>Copyright 2021 - Electrum by Thuiskon Kerber</p>

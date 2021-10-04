@@ -9,6 +9,7 @@ import Prod14 from '../../img/smart-5.jpg';
 
 const Smartphones = () => {
 
+    //usando este hook para os links do rodapé subir a pagina
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
