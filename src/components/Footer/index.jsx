@@ -1,5 +1,5 @@
 import { FaLocationArrow, FaPhone, FaEnvelope, FaCcMastercard, FaCcVisa, FaCcDinersClub, FaCcAmazonPay, FaCcApplePay, FaRegCopyright } from 'react-icons/fa'
-
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
     return (
@@ -20,36 +20,36 @@ export const Footer = () => {
                         <div className="footer-top-about-icons">
                         
                         <FaLocationArrow />
-                        <a href="#">Rua Pedro Adams Filho, 1451, Novo Hamburgo/RS</a>
+                        <Link to ='/'>Rua Pedro Adams Filho, 1451, Novo Hamburgo/RS</Link>
 
                         <i className="fas fa-phone">
                             
                         </i>
-                        <FaPhone /><a href="#">(51) 982098544)</a>
+                        <FaPhone /><Link to ="/">(51) 982098544)</Link>
 
                         <i className="far fa-envelope">
                             
                         </i>
-                        <FaEnvelope /><a href="#">electrum@pixeloko.com</a>
+                        <FaEnvelope /><Link to="/">electrum@pixeloko.com</Link>
                         </div>
                     </div>
                     <div className="footer-top-categories">
                         <h3>Categorias</h3>
                         <ul>
                             <li>
-                                <a href="#">Promoções</a>
+                                <Link to = '/'>Promoções</Link>
                             </li>
                             <li>
-                                <a href="#">Headsets</a>
+                                <Link to = '/'>Headsets</Link>
                             </li>
                             <li>
-                                <a href="#">PC Gamer</a>
+                                <Link to = '/'>PC Gamer</Link>
                             </li>
                             <li>
-                                <a href="#">Cameras</a>
+                                <Link to = '/'>Cameras</Link>
                             </li>
                             <li>
-                                <a href="#">Mouse e Teclado</a>
+                                <Link to = '/'>Mouse e Teclado</Link>
                             </li>
                         </ul>
                     </div>
@@ -58,19 +58,19 @@ export const Footer = () => {
                         <h3>Informações</h3>
                         <ul>
                             <li>
-                                <a href="#">Sobre nós</a>
+                                <Link to="">Sobre nós</Link>
                             </li>
                             <li>
-                                <a href="#">Entre em contato</a>
+                                <Link to="/">Entre em contato</Link>
                             </li>
                             <li>
-                                <a href="#">Política de privacidade</a>
+                                <Link to="/">Política de privacidade</Link>
                             </li>
                             <li>
-                                <a href="#">Pedidos e devoluções</a>
+                                <Link to="/">Pedidos e devoluções</Link>
                             </li>
                             <li>
-                                <a href="#">Termos e Condições</a>
+                                <Link to="/">Termos e Condições</Link>
                             </li>
                         </ul>
                     </div>
@@ -79,16 +79,16 @@ export const Footer = () => {
                         <h3>Menu</h3>
                         <ul>
                             <li>
-                                <a href="#">Minha Conta</a>
+                                <Link to="/">Minha Conta</Link>
                             </li>
                             <li>
-                                <a href="#">Carrinho</a>
+                                <Link to="/">Carrinho</Link>
                             </li>
                             <li>
-                                <a href="#">Lista de Desejos</a>
+                                <Link to="/">Lista de Desejos</Link>
                             </li>
                             <li>
-                                <a href="#">Rastrear Pedido</a>
+                                <Link to="/">Rastrear Pedido</Link>
                             </li>
                         </ul>
                     </div>

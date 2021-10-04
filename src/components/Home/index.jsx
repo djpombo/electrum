@@ -7,6 +7,7 @@ import Prod5 from '../../img/prod-5.jpg';
 import Prod6 from '../../img/prod-6.jpg';
 import Prod7 from '../../img/prod-7.jpg';
 import Prod8 from '../../img/prod-8.jpg';
+import { Link } from 'react-router-dom';
 
 
 export const Home = () => {
@@ -17,11 +18,11 @@ export const Home = () => {
                     <div className="banner-cover">
                         <div className="banner-content">
                             <h2>Promoção de Notebooks</h2>
-                            <a href="#">Ver Mais
+                            <Link to ='/'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -30,11 +31,11 @@ export const Home = () => {
                     <div className="banner-cover">
                         <div className="banner-content">
                             <h2>Lançamento de Acessórios</h2>
-                            <a href="#">Ver Mais
+                            <Link to ='/'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -43,11 +44,11 @@ export const Home = () => {
                     <div className="banner-cover">
                         <div className="banner-content">
                             <h2>Cameras Potentes</h2>
-                            <a href="#">Ver Mais
+                            <Link to ='/'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

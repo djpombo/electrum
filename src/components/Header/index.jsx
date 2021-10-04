@@ -1,5 +1,5 @@
 import { FaPhone, FaEnvelope, FaMapMarkedAlt, FaDollarSign, FaUser, FaBolt, FaHeart, FaShoppingCart } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
     return(
@@ -12,15 +12,15 @@ const Header = () =>{
                         <span><i className="fas fa-map-marker-alt"><FaMapMarkedAlt /></i>Av Pedro Adams Filho, 1451, Novo Hamburgo/RS</span>
                     </div>
                     <div className="header-user-top-menu">
-                        <span><i className="fas fa-dollar-sign"><FaDollarSign /></i><a href="#">BRL</a></span>
-                        <span><i className="fas fa-user"><FaUser /></i><a href="#">Minha Conta</a></span>
+                        <span><i className="fas fa-dollar-sign"><FaDollarSign /></i><Link to ='/'>BRL</Link></span>
+                        <span><i className="fas fa-user"><FaUser /></i><Link to ='/'>Minha Conta</Link></span>
                     </div>
                 </div>
             </div>
 
             <div className="main-header">
                 <div className="main-header-container">
-                    <a href="#" id="brand">Electrum<i className="fas fa-bolt" id="main-icon"><FaBolt size={28} /></i></a>
+                    <Link to ='/' id="brand">Electrum<i className="fas fa-bolt" id="main-icon"><FaBolt size={28} /></i></Link>
                     <form action="" id="search-form">
                         <input type="text" id="search" placeholder="busque aqui" />
                         <input type="submit" className="btn btn-half" value="Pesquisar" />
@@ -29,13 +29,13 @@ const Header = () =>{
                         <div className="whishlist-container">
                             <span className="qtd">0</span>
                             <i className="fas fa-heart"><FaHeart /></i>
-                            <a href="#">Favoritos</a>
+                            <Link to ='/'>Favoritos</Link>
                         </div>
 
                         <div className="header-cart-container">
                             <span className="qtd">0</span>
                             <i className="fas fa-shopping-cart"><FaShoppingCart /></i>
-                            <a href="#">Carrinho</a>
+                            <Link to ='/'>Carrinho</Link>
                         </div>
                     </div>
                 </div>
@@ -45,22 +45,22 @@ const Header = () =>{
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <Link to ='/'>Home</Link>
                         </li>
                         <li>
-                            <a href="#">Promoções</a>
+                            <Link to ='/'>Promoções</Link>
                         </li>
                         <li>
-                            <a href="#">Notebooks</a>
+                            <Link to ='/'>Notebooks</Link>
                         </li>
                         <li>
-                            <a href="#">Celulares</a>
+                            <Link to ='/'>Celulares</Link>
                         </li>
                         <li>
-                            <a href="#">Cameras</a>
+                            <Link to ='/'>Cameras</Link>
                         </li>
                         <li>
-                            <a href="#">Acessorios</a>
+                            <Link to ='/'>Acessorios</Link>
                         </li>
                     </ul>
                 </nav>
