@@ -1,4 +1,5 @@
 import {  FaStar, FaRegStar } from 'react-icons/fa';
+import { useEffect } from 'react';
 import Prod11 from '../../img/smart-6.jpg';
 import Prod12 from '../../img/smart-3.jpg';
 import Prod13 from '../../img/smart-4.jpg';
@@ -7,6 +8,10 @@ import Prod14 from '../../img/smart-5.jpg';
 
 
 const Smartphones = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <div className="products-grid">

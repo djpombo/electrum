@@ -1,4 +1,5 @@
 import {  FaStar, FaRegStar } from 'react-icons/fa';
+import { useEffect } from 'react';
 import Prod1 from '../../img/prod-1.jpg';
 import Prod2 from '../../img/prod-2.jpg';
 import Prod3 from '../../img/prod-3.jpg';
@@ -6,6 +7,10 @@ import Prod4 from '../../img/prod-4.jpg';
 
 
 const Novidades = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <div className="products-grid">

@@ -1,4 +1,5 @@
 import {  FaStar, FaRegStar } from 'react-icons/fa';
+import { useEffect } from 'react';
 import Prod7 from '../../img/prod-7.jpg';
 import Prod8 from '../../img/note-5.png';
 import Prod9 from '../../img/note-3.png';
@@ -7,6 +8,10 @@ import Prod10 from '../../img/note-4.png';
 
 
 const Notebooks = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <div className="products-grid">
