@@ -25,7 +25,7 @@ export const Footer = () => {
                         <i className="fas fa-phone">
                             
                         </i>
-                        <FaPhone /><Link to ="/">(51) 982098544)</Link>
+                        <FaPhone /><Link to ="/">(51) 982098544</Link>
 
                         <i className="far fa-envelope">
                             
@@ -37,19 +37,19 @@ export const Footer = () => {
                         <h3>Categorias</h3>
                         <ul>
                             <li>
-                                <Link to = '/'>Promoções</Link>
+                                <Link to = '/promocoes'>Promoções</Link>
                             </li>
                             <li>
-                                <Link to = '/'>Headsets</Link>
+                                <Link to = '/novidades'>Novidades</Link>
                             </li>
                             <li>
-                                <Link to = '/'>PC Gamer</Link>
+                                <Link to = '/notebooks'>Notebooks</Link>
                             </li>
                             <li>
-                                <Link to = '/'>Cameras</Link>
+                                <Link to = '/smartphones'>Smatphones</Link>
                             </li>
                             <li>
-                                <Link to = '/'>Mouse e Teclado</Link>
+                                <Link to = '/acessorios'>Acessorios</Link>
                             </li>
                         </ul>
                     </div>

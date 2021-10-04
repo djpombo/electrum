@@ -48,19 +48,19 @@ const Header = () =>{
                             <Link to ='/'>Home</Link>
                         </li>
                         <li>
-                            <Link to ='/'>Promoções</Link>
+                            <Link to ='/promocoes'>Promoções</Link>
                         </li>
                         <li>
-                            <Link to ='/'>Notebooks</Link>
+                            <Link to ='/novidades'>Novidades</Link>
                         </li>
                         <li>
-                            <Link to ='/'>Celulares</Link>
+                            <Link to ='/notebooks'>Notebooks</Link>
                         </li>
                         <li>
-                            <Link to ='/'>Cameras</Link>
+                            <Link to ='/smartphones'>Smartphones</Link>
                         </li>
                         <li>
-                            <Link to ='/'>Acessorios</Link>
+                            <Link to ='/acessorios'>Acessorios</Link>
                         </li>
                     </ul>
                 </nav>

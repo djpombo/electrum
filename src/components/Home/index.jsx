@@ -18,7 +18,7 @@ export const Home = () => {
                     <div className="banner-cover">
                         <div className="banner-content">
                             <h2>Promoção de Notebooks</h2>
-                            <Link to ='/'>Ver Mais
+                            <Link to ='/notebooks'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
@@ -31,7 +31,7 @@ export const Home = () => {
                     <div className="banner-cover">
                         <div className="banner-content">
                             <h2>Lançamento de Acessórios</h2>
-                            <Link to ='/'>Ver Mais
+                            <Link to ='/acessorios'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
@@ -43,8 +43,8 @@ export const Home = () => {
                 <div className="banner" id="banner-3">
                     <div className="banner-cover">
                         <div className="banner-content">
-                            <h2>Cameras Potentes</h2>
-                            <Link to ='/'>Ver Mais
+                            <h2>Celulares e Smartphones</h2>
+                            <Link to ='/smartphones'>Ver Mais
                                 <i className="fas fa-arrow-circle-right">
                                     <FaArrowCircleRight />
                                 </i>
