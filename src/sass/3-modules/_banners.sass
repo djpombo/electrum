@@ -12,6 +12,10 @@
     @include modules-mixins.center-bg
     background-size: 100%
 
+    @include base-mixins.mobile
+        width: 90%
+        margin: 1rem
+
     &:hover
         background-size: 120%
 
@@ -21,6 +25,8 @@
         height: 100%
         opacity: .8
         border-bottom-right-radius: 6rem
+
+                    
 
     &-content
         position: absolute
